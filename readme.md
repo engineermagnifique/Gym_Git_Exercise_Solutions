@@ -8,8 +8,11 @@
 mkdir GitLearning
 cd GitLearning
 git init
-echo "# Git Learning" > README.md
+git branch -m master main
 git add --all
-git remote add
+git commit -m "first commit"
+git branch -M main
+git remote add  origin https://github.com/engineermagnifique/Gym_Git_Exercise_Solutions
+git push -u origin main
 
 ```
