@@ -14,7 +14,7 @@ git commit -m "first commit"
 git branch -M main
 git remote add  origin https://github.com/engineermagnifique/Gym_Git_Exercise_Solutions
 git push -u origin main
-git branch myFirstBranch
-git checkout myFirstBranch
-git push -u origin myFirstBranch
+git branch dev
+git checkout dev
+git push -u origin dev
 ```
