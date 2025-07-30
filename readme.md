@@ -30,5 +30,11 @@ git add team.html
 git stash
 git stash apply "stash@{1}"
 git stash apply "stash@{2}"
+<<<<<<< Updated upstream
 git reset
+=======
+git commit -m "added home and team files"
+git stash pop
+
+>>>>>>> Stashed changes
 ```
