@@ -17,4 +17,18 @@ git push -u origin main
 git branch dev
 git checkout dev
 git push -u origin dev
+git checkout -b test
+git checkout dev
+git branch -d test
+git push origin --delete test
+git stash -u //for stashing untracked files
+touch about.html
+git add about.html
+git stash
+touch team.html
+git add team.html
+git stash
+git stash apply "stash@{1}"
+git stash apply "stash@{2}"
+
 ```
