@@ -22,4 +22,21 @@ git checkout -b test
 git checkout dev
 git branch -d test
 git push origin --delete test
+git stash -u //for stashing untracked files
+touch about.html
+git add about.html
+git stash
+touch team.html
+git add team.html
+git stash
+git stash apply "stash@{1}"
+git stash apply "stash@{2}"
+git reset
+git checkout main
+git pull origin main
+git commit -m "Added new things to service"
+git add services.html
+git commit -m "Added new things to service"
+git push origin main
+//creating pull request
 ```
