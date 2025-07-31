@@ -31,4 +31,11 @@ git stash
 git stash apply "stash@{1}"
 git stash apply "stash@{2}"
 git reset
+git checkout main
+git pull origin main
+git commit -m "Added new things to service"
+git add services.html
+git commit -m "Added new things to service"
+git push origin main
+//creating pull request
 ```
