@@ -29,12 +29,13 @@ touch team.html
 git add team.html
 git stash
 git stash apply "stash@{1}"
-git stash apply "stash@{2}"
-<<<<<<< Updated upstream
+git stash apply "stash@{2}
 git reset
-=======
-git commit -m "added home and team files"
-git stash pop
-
->>>>>>> Stashed changes
+git checkout main
+git pull origin main
+git commit -m "Added new things to service"
+git add services.html
+git commit -m "Added new things to service"
+git push origin main
+//creating pull request
 ```
