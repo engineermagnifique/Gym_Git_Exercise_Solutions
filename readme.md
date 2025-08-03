@@ -1,3 +1,4 @@
+
 ## Git Exercises
 
 ### Bundle1
@@ -29,7 +30,7 @@ touch team.html
 git add team.html
 git stash
 git stash apply "stash@{1}"
-git stash apply "stash@{2}"
+git stash apply "stash@{2}
 git reset
 git checkout main
 git pull origin main
